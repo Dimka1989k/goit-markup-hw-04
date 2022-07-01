@@ -493,6 +493,8 @@ section {
     text-align: center;
     letter-spacing: 0.03em;    
     color: #212121;
+    margin-top: 0%;
+    margin-bottom: 50px;
 }
 
 .comand-card {    
@@ -509,20 +511,25 @@ section {
 
 .icon-list-client {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     border-color: rgba(175, 177, 184, 1);
-    align-items: center;
-    justify-content: center;
+    fill: rgba(175, 177, 184, 1);
+    
+
 
 }
 
-
-.icon-list-client:hover {
-    color: #2196F3;
+.customer-icons:hover
+.icon-list-client:hover {    
     border-color: #2196F3;
+    color: #2196F3;       
+    fill: currentColor;
+    
     
 
 }
@@ -537,18 +544,23 @@ section {
 
 }
 .icon-customers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 106px;
     height: 60px;
-    fill: rgba(175, 177, 184, 1);
-
-}
-
-.clients {
-    margin-top: 0%;
-    margin-bottom: 50px;
+    
+    
+    
+    
     
 
 }
+ 
+    
+
+
+
 
 .clients-icon {
     margin-right: 30px;
