@@ -666,20 +666,12 @@ section {
 }
 
 
-.footer-networks {
-    display: flex;
-   
-    justify-content: space-between;
-    align-items: center;
-    width: 44px;
-        height: 44px;
-}
+
 
 .social-footer-networks {
     width: 44px;
     height: 44px;
     border-radius: 50%;   
-    
     background-color: rgba(255, 255, 255, 0.1);
     fill: #FFFFFF;
     
