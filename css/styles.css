@@ -434,18 +434,74 @@ section {
     letter-spacing: 0.03em;    
     color: #757575;
     margin-top: 10px;
+    
 }
 
-.job-network{
-    display: inline-flex;
-    justify-content: space-between;
+.job-network {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    fill: #AFB1B8;
+    border-radius: 50%;
+   
+    
+    
+    
+    
+   
+}
+
+
+.job-network:hover{
+    background-color: #2196F3;
+    
+
+
+
+}
+
+
+.link-contact {
+    display: flex;
+    list-style: none;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 16px;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+
+.social-links {
+    width: 20px;
+    height: 20px;
+    
+    
+    
+    
+     
+
+}
+
+
+.social-links:hover {
+    color: #FFFFFF;
+    
+    fill: currentColor;
+
+
+
+
 
 }
 
 .comand-card {    
     width: 270px;
-    height: 368px;
+    height: 428px;
     left: 215px;
     top: 1635px;
     background: #FFFFFF;       
@@ -686,20 +742,6 @@ section {
 }
 
 
-.footer-networks {
-    
-    
-    
-    
-  
-   
-    
-       
-    
-    
-    
-       
-}
 
 .social-footer-networks {  
     width: 44px;
@@ -709,17 +751,7 @@ section {
     border-radius: 50%;
     padding: 12px 12px;
 
-    
-    
-       
-    
-    
-   
-    
-   
-    
-    
-    
+      
     
 }
 
