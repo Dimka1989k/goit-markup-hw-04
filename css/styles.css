@@ -18,7 +18,7 @@ a {
 
 
 ul li {
-    list-style-type: none;
+    list-style: none;
     padding-left: 0;
 }
 
@@ -83,9 +83,9 @@ section {
 
 .header-contacts {
     padding-left: 0;
-    margin-left: 319px;
-
-       
+    margin-left: 273px;
+    margin-top: 32px;    
+    margin-bottom: 32px;
     
     
     
@@ -151,12 +151,14 @@ section {
 
 .contact-type:hover {
     color: #2196F3;
+    
 }
 
 
 .header-contact-link {
     display: inline-flex;
-    margin-right: 50px;      
+    margin-right: 50px;
+    text-align: center;      
     
 }
 
@@ -165,9 +167,41 @@ section {
     margin-right: 0;
 
 }   
+
+
+.smartphone {
+    fill: #757575;
+    width: 10px;
+    height: 16px;
+    padding: 0;
+    margin-right: 10px;
+    fill: currentColor;
+    
+}
+
+.mail {
+    fill: #757575;
+    width: 16px;
+    height: 12px;
+    padding: 0;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Шапка */
-.hero {    
-    background-color:rgba(47, 48, 58, 0.4);
+.hero { 
+    background-color: #2F303A;      
     max-width: 1600px;
     height: 600px;
     padding-top: 200px;
@@ -176,7 +210,9 @@ section {
     margin-right: auto;
     background-size: cover;
     background-position: center;    
-    background-image: url(../images/img111.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img111.jpg);
+
+    
     
     
 
@@ -504,13 +540,17 @@ section {
 
  /* Подвал */
 
-.footer {     
+.footer { 
+       
     background: #2F303A;    
     padding-top: 60px;
     padding-bottom: 60px;
     
    
 }
+
+
+
 
 
 
@@ -598,4 +638,76 @@ section {
 .footer-contact-mail {
     margin-bottom: 9px;
 }
+
+
+.footer-info {
+    display: flex;
+    justify-content: start;
+    
+}
+
+.footer-in {
+    margin-left: 70px;
+}
+
+.links {
+    display: flex;
+    padding: 0;
+    
+}
+
+.links-networks {
+    margin-right: 10px;
+    background-position: center;
+}
+
+.links-networks:last-child {
+    margin-right: 0;
+}
+
+
+.footer-networks {
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    width: 44px;
+        height: 44px;
+}
+
+.social-footer-networks {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;   
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #FFFFFF;
+    
+    
+    
+}
+
+
+
+.social-footer-networks:hover {    
+    background-color: #2196F3;
+}
+
+
+.join {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
 
