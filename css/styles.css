@@ -16,6 +16,14 @@ a {
     display: flex;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}    
+
+
+
 
 ul li {
     list-style: none;
@@ -83,8 +91,8 @@ section {
 
 
 
-.logo-studio {   
-
+.logo-studio {  
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -158,7 +166,10 @@ section {
 }
 
 
-.header-contact-link {    
+.header-contact-link {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
     margin-right: 50px;
     
     
@@ -168,10 +179,13 @@ section {
 .header-contact-link:last-child {    
     margin-right: 0;
 
-}   
+}  
 
 
 .smartphone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     fill: #757575;
     width: 10px;
     height: 16px;
@@ -182,6 +196,9 @@ section {
 }
 
 .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     fill: #757575;
     width: 16px;
     height: 12px;
@@ -318,9 +335,7 @@ section {
     
 }
 
-.title-text-list {
 
-}
 
 
 
@@ -520,6 +535,7 @@ section {
     border-color: rgba(175, 177, 184, 1);
     fill: rgba(175, 177, 184, 1);
     
+    
 
 
 }
@@ -527,7 +543,8 @@ section {
 .customer-icons:hover
 .icon-list-client:hover {    
     border-color: #2196F3;
-    color: #2196F3;       
+    color: #2196F3;   
+    
     fill: currentColor;
     
     
@@ -537,9 +554,11 @@ section {
 .customer-icons {
     display: flex;
     justify-content: center;
+    align-content: center;
     padding: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
+    
     
 
 }
@@ -554,12 +573,11 @@ section {
     
     
     
+    
 
 }
  
     
-
-
 
 
 .clients-icon {
@@ -635,6 +653,7 @@ section {
     left: 215px;
     top: 1130px;
     border: 1px solid #EEEEEE;
+    cursor: pointer;
     
     
     
