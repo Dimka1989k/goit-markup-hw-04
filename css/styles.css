@@ -22,7 +22,10 @@ img {
     height: auto;
 }    
 
-
+a:active,
+a:focus {
+    outline: none;
+}
 
 
 ul li {
@@ -133,9 +136,15 @@ section {
 }
 
 
+
+.menu-link:focus,
 .menu-link:hover {
     color: #2196F3;
+    
 }
+
+
+
 
 .contact-type {
     font-family: 'Roboto', sans-serif;
@@ -144,11 +153,14 @@ section {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: #757575;
-    text-decoration: none;    
+    text-decoration: none; 
+       
   
 
 }
 
+
+.contact-type:focus,
 .contact-type:hover {
     color: #2196F3;
     
@@ -205,6 +217,8 @@ section {
     padding: 0;
     margin-right: 10px;
     fill: currentColor;
+    
+    
 }
 
 
@@ -292,6 +306,7 @@ section {
 
 
 
+
 /* Особенности */
 
 
@@ -337,13 +352,9 @@ section {
 
 
 
-
-
-.icon-specific {
+.benefits {
     width: 270px;
     height: 120px;
-    left: 215px;
-    top: 774px;    
     background-color: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
@@ -351,17 +362,16 @@ section {
     text-align: center;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+
 }
 
 
 
-    
-    
-
-
-
-
-
+.icon-specific {
+    width: 70px;
+    height: 70px;
+}
 
 
 
@@ -491,7 +501,7 @@ section {
 
 }
 
-
+.job-network:focus,
 .job-network:hover {
     background-color: #2196F3;
     fill: currentColor;
@@ -540,11 +550,14 @@ section {
 
 }
 
+
+
+.customer-icons:focus, 
+.icon-list-client:focus,
 .customer-icons:hover
 .icon-list-client:hover {    
     border-color: #2196F3;
-    color: #2196F3;   
-    
+    color: #2196F3; 
     fill: currentColor;
     
     
@@ -689,11 +702,12 @@ section {
     cursor: pointer;
 }
 
-
+.button:focus,
 .button:hover {
     color: #FFFFFF;
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    outline: none;
 }
 
  /* Подвал */
@@ -849,7 +863,7 @@ section {
 }
 
 
-
+.footer-networks:focus,
 .footer-networks:hover {    
     background-color: #2196F3;
 }
