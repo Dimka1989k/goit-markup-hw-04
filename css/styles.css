@@ -137,11 +137,13 @@ section {
 
 
 
-.menu-link:focus,
-.menu-link:hover {
+
+.menu-link:hover,
+.menu-link:focus {
     color: #2196F3;
     
 }
+
 
 
 
@@ -160,11 +162,14 @@ section {
 }
 
 
-.contact-type:focus,
-.contact-type:hover {
+
+.contact-type:hover,
+.contact-type:focus {
     color: #2196F3;
     
 }
+
+
 
 
 .header-contacts {
@@ -501,8 +506,9 @@ section {
 
 }
 
-.job-network:focus,
-.job-network:hover {
+
+.job-network:hover,
+.job-network:focus  {
     background-color: #2196F3;
     fill: currentColor;
   
@@ -672,11 +678,15 @@ section {
     
 }
 
-.portfolio-card:hover {
+.portfolio-card:hover,
+.portfolio-card:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     
 
 }
+
+
+
 
 
 .portfolio-card-list {
@@ -702,8 +712,9 @@ section {
     cursor: pointer;
 }
 
-.button:focus,
-.button:hover {
+
+.button:hover,
+.button:focus {
     color: #FFFFFF;
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -863,8 +874,9 @@ section {
 }
 
 
-.footer-networks:focus,
-.footer-networks:hover {    
+
+.footer-networks:hover,
+.footer-networks:focus {    
     background-color: #2196F3;
 }
 
