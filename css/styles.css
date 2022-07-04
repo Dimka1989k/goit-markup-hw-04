@@ -141,8 +141,11 @@ section {
 .menu-link:hover,
 .menu-link:focus {
     color: #2196F3;
-    
+    fill: currentColor;
 }
+
+    
+
 
 
 
@@ -166,6 +169,7 @@ section {
 .contact-type:hover,
 .contact-type:focus {
     color: #2196F3;
+    fill: currentColor;
     
 }
 
@@ -211,6 +215,10 @@ section {
     fill: currentColor;
     
 }
+
+
+
+
 
 .mail {
     display: flex;
@@ -293,6 +301,7 @@ section {
     cursor: pointer;
     text-decoration:none;
     margin: 0 auto; 
+    
      
 
 }
@@ -358,16 +367,16 @@ section {
 
 
 .benefits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
-    padding: 25px 100px;
-    text-align: center;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    
+    
 
 }
 
@@ -682,10 +691,14 @@ section {
 .portfolio-card:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     
-
 }
 
 
+.portfolio-card:focus,
+.portfolio-card:active {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+}
 
 
 
@@ -719,6 +732,7 @@ section {
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     outline: none;
+    
 }
 
  /* Подвал */
